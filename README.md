@@ -36,23 +36,7 @@ It looks like our developer left behind some code for displaying a list of all o
 
 There is a file with fake contacts, and the collection of contacts is being exposed to the template in a variable called `contacts`.
 
-There's also in a snippet of code in the template as seen here:
-
-```htmlmixed
-<!-- contact-list.component.html -->
-<ul>
-  <li ngFor="let contact of contacts">
-    <span><!-- contact name --></span>
-    <span><!-- contact email --></span>
-    <span><!-- contact phoneNumber --></span>
-    <!-- contact image -->
-  </li>
-</ul>
-```
-
-It looks like there's something wrong with the `ngFor` iterator, you'll have to excuse our new developer.
-
-Fix this bug, and display all of the information as stated in the comments.
+Using `*ngFor`, display the `name`, `email`, `phoneNumber`, and `image` of the contact.
 
 ### Iteration 2 | Add New Contacts
 
@@ -76,15 +60,7 @@ addContact(){
 }
 ```
 
-### Iteration 3 | Search Contacts
-
-One feature we'd like to add is being able to search for contacts. Create an input, and a new pipe to sort through the list of contacts by name.
-
-**Bonus**
-
-Customize the search input so you can search by either name, email, or phone number.
-
-### Iteration 4 | Styling
+### Iteration 3 | Styling
 
 Unfortunately, our contacts list isn't really production ready. It doesn't have much styling yet.
 
