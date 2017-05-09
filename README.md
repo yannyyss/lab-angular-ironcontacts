@@ -46,7 +46,7 @@ When a user clicks the button below this form, it's *supposed* to be calling a f
 
 Look carefully at the following line and see if you can detect the bug:
 
-```htmlmixed
+```html
 <!-- contact-list.component.html -->
 <button (click)="addContact">Submit New Contact</button>
 ```
