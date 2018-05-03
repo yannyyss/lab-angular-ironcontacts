@@ -4,17 +4,17 @@
 
 ## Introduction
 
-Over here at Ironlabs, we have found that students like to have a way to keep track of the contacts they make during their Ironhack experience, for furutre projects, and to reminisce about the old times.
+Over here at Ironlabs, we have found that students like to have a way to keep track of the contacts they make during their Ironhack experience, for future projects, and to reminisce about old times.
 
 We are going to create a contact management app with Angular.
 
-You can find the starter code in the starter code folder of this github repo.
+You can find the starter code in the starter code folder of this GitHub repo.
 
 ## Requirements
 
 - [Fork this repo](https://guides.github.com/activities/forking/)
 - Clone this repo into your `~/code/labs`
-- You must submit the entire angular2 app
+- You must submit the entire angular app
 
 ## Submission
 
@@ -24,9 +24,9 @@ $ git add .
 $ git commit -m "done"
 $ git push origin master
 ```
-Navigate to your repo and create a Pull Request from your master branch to the original repository master branch.
+Navigate to your repo and create a pull request from your master branch to the original repository master branch.
 
-In the Pull request name, add your name and last names separated by a dash "-"
+In the pull request name, add your name and last names separated by a dash "-"
 
 ## Instructions
 
