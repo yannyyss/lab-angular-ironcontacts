@@ -21,6 +21,6 @@ export class ContactListComponent implements OnInit {
     // add contact to contacts list
     this.contacts.unshift(this.newContact);
     // clear inputs
-    
+    this.newContact = {};
   }
 }
